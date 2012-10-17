@@ -16,7 +16,7 @@
 #    You should have received a copy of the GNU Lesser General Public License
 #    along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
-from distutils.command.install import install
+from setuptools.command.install import install
 from distutils.command.install_lib import install_lib
 from distutils.core import setup
 from distutils.sysconfig import get_config_vars
